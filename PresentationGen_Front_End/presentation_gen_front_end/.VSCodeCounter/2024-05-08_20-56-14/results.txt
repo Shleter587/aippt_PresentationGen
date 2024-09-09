@@ -1,0 +1,58 @@
+Date : 2024-05-08 20:56:14
+Directory : d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end
+Total : 21 files,  17886 codes, 72 comments, 197 blanks, all 18155 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |     15,568 |          0 |          2 |     15,570 |
+| Vue                |          9 |      1,746 |         66 |        103 |      1,915 |
+| HTML               |          2 |        440 |          4 |         69 |        513 |
+| JavaScript         |          6 |         94 |          2 |         16 |        112 |
+| JSON with Comments |          1 |         19 |          0 |          1 |         20 |
+| Markdown           |          1 |         19 |          0 |          6 |         25 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                           |         21 |     17,886 |         72 |        197 |     18,155 |
+| . (Files)                                                                                                                   |          7 |     15,635 |          0 |         12 |     15,647 |
+| public                                                                                                                      |          2 |        440 |          4 |         69 |        513 |
+| src                                                                                                                         |         12 |      1,811 |         68 |        116 |      1,995 |
+| src (Files)                                                                                                                 |          2 |         52 |          3 |         13 |         68 |
+| src\components                                                                                                              |          3 |        388 |          5 |         27 |        420 |
+| src\plugins                                                                                                                 |          1 |          4 |          0 |          2 |          6 |
+| src\router                                                                                                                  |          1 |         41 |          1 |          5 |         47 |
+| src\views                                                                                                                   |          5 |      1,326 |         59 |         69 |      1,454 |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                                    | language           | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\.eslintrc.js                     | JavaScript         |         17 |          0 |          1 |         18 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\README.md                        | Markdown           |         19 |          0 |          6 |         25 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\babel.config.js                  | JavaScript         |          8 |          0 |          1 |          9 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\jsconfig.json                    | JSON with Comments |         19 |          0 |          1 |         20 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\package-lock.json                | JSON               |     15,522 |          0 |          1 |     15,523 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\package.json                     | JSON               |         46 |          0 |          1 |         47 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\public\index.html                | HTML               |         16 |          1 |          1 |         18 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\public\signUp.html               | HTML               |        424 |          3 |         68 |        495 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\App.vue                      | Vue                |         32 |          2 |          7 |         41 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\components\HeaderView.vue    | Vue                |         56 |          0 |          3 |         59 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\components\ModalView.vue     | Vue                |        217 |          2 |         16 |        235 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\components\StreamDisplay.vue | Vue                |        115 |          3 |          8 |        126 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\main.js                      | JavaScript         |         20 |          1 |          6 |         27 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\plugins\element.js           | JavaScript         |          4 |          0 |          2 |          6 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\router\index.js              | JavaScript         |         41 |          1 |          5 |         47 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\AuthView.vue           | Vue                |        381 |          6 |         25 |        412 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\EditView.vue           | Vue                |        383 |         42 |         16 |        441 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\HomeView.vue           | Vue                |        288 |          7 |         18 |        313 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\PPTView.vue            | Vue                |        146 |          4 |          3 |        153 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\UserView.vue           | Vue                |        128 |          0 |          7 |        135 |
+| d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\vue.config.js                    | JavaScript         |          4 |          0 |          1 |          5 |
+| Total                                                                                                                       |                    |     17,886 |         72 |        197 |     18,155 |
++-----------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

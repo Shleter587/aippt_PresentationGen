@@ -1,0 +1,25 @@
+"filename", "language", "Markdown", "JavaScript", "JSON", "Vue", "HTML", "JSON with Comments", "comment", "blank", "total"
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\.eslintrc.js", "JavaScript", 0, 17, 0, 0, 0, 0, 0, 1, 18
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\README.md", "Markdown", 19, 0, 0, 0, 0, 0, 0, 6, 25
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\babel.config.js", "JavaScript", 0, 8, 0, 0, 0, 0, 0, 1, 9
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\jsconfig.json", "JSON with Comments", 0, 0, 0, 0, 0, 19, 0, 1, 20
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\package-lock.json", "JSON", 0, 0, 15565, 0, 0, 0, 0, 1, 15566
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\package.json", "JSON", 0, 0, 46, 0, 0, 0, 0, 1, 47
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\public\index.html", "HTML", 0, 0, 0, 0, 16, 0, 1, 1, 18
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\App.vue", "Vue", 0, 0, 0, 74, 0, 0, 7, 11, 92
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\components\HeaderView.vue", "Vue", 0, 0, 0, 122, 0, 0, 1, 3, 126
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\components\ModalView.vue", "Vue", 0, 0, 0, 283, 0, 0, 2, 16, 301
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\components\StreamDisplay.vue", "Vue", 0, 0, 0, 116, 0, 0, 4, 8, 128
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\main.js", "JavaScript", 0, 19, 0, 0, 0, 0, 1, 6, 26
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\plugins\element.js", "JavaScript", 0, 4, 0, 0, 0, 0, 0, 2, 6
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\router\index.js", "JavaScript", 0, 80, 0, 0, 0, 0, 1, 7, 88
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\AuthView.vue", "Vue", 0, 0, 0, 398, 0, 0, 6, 25, 429
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\EditView.vue", "Vue", 0, 0, 0, 833, 0, 0, 49, 28, 910
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\HelpView.vue", "Vue", 0, 0, 0, 78, 0, 0, 0, 5, 83
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\HistoryView.vue", "Vue", 0, 0, 0, 173, 0, 0, 0, 9, 182
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\HomeView.vue", "Vue", 0, 0, 0, 291, 0, 0, 7, 18, 316
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\PPTView.vue", "Vue", 0, 0, 0, 176, 0, 0, 4, 4, 184
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\PersonView.vue", "Vue", 0, 0, 0, 109, 0, 0, 4, 6, 119
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\src\views\UserView.vue", "Vue", 0, 0, 0, 423, 0, 0, 3, 6, 432
+"d:\Download\Java\proj\PresentationGen\PresentationGen_Front_End\presentation_gen_front_end\vue.config.js", "JavaScript", 0, 4, 0, 0, 0, 0, 0, 1, 5
+"Total", "-", 19, 132, 15611, 3076, 16, 19, 90, 167, 19130

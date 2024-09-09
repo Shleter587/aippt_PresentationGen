@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solocongee.presentationgen_back_end.mapper.TemplateMapper">
+    <select id="PPTQuery" resultType="com.solocongee.presentationgen_back_end.pojo.PPTTemplate">
+        SELECT DISTINCT t.*
+        FROM template_table t
+        LEFT JOIN template_tag_table tt ON t.id = tt.template_id
+        LEFT JOIN tag_table tag ON tt.tag_id = tag.id
+        <where>
+            <if test="colour != null and colour != ''">
+                AND t.colour = #{colour}
+            </if>
+            <if test="tag != null and tag != ''">
+                AND tag.tag_name = #{tag}
+            </if>
+        </where>
+        ORDER BY t.created_time DESC
+    </select>
+
+    <select id="ChapQuery" resultType="com.solocongee.presentationgen_back_end.pojo.ChapTemplate">
+        SELECT DISTINCT *
+        FROM chapter_template_show_table
+        <where>
+            <if test="point != null">
+                AND point = #{point}
+            </if>
+            <if test="colour != null and colour != ''">
+                AND colour = #{colour}
+            </if>
+            <if test="hasPicture != null">
+                AND has_picture = #{hasPicture}
+            </if>
+        </where>
+    </select>
+
+</mapper>
