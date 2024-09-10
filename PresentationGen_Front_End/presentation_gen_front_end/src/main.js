@@ -13,7 +13,7 @@ Vue.use(ElementUI)
 Vue.prototype.$axios = axios
 
 if (process.env.NODE_ENV === 'development') {
-  // axios.defaults.baseURL = 'http://localhost:8080/api'
+  axios.defaults.baseURL = 'http://localhost:8080/api'
 } else {
   axios.defaults.baseURL = '/api'
 }

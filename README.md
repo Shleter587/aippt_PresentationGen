@@ -1,4 +1,8 @@
-<div align=center><img src="https://github.com/user-attachments/assets/12fba3ae-8f88-4df7-9dce-f22e724f9543"></div>
+# PrensentationGen
+
+A SpringBoot web application that generates PPT files using a llm.
+
+<div align=center href="https://github.com/Shleter587/aippt_PresentationGen"><img src="https://github.com/user-attachments/assets/12fba3ae-8f88-4df7-9dce-f22e724f9543"></div>
 
   <h1 align="center" style="font-weight:bold">AI生成PPT-PrensentationGen-Java实现</h1>
 
@@ -7,10 +11,9 @@
 ## 目录
 
 - [功能演示](#功能介绍)
-- [开发前的配置要求](#开发前的配置要求)
+- [部署](#部署)
 - [文件目录说明](#文件目录说明)
 - [开发的架构](#开发的架构)
-- [部署](#部署)
 - [技术栈](#技术栈)
 - [版本控制](#版本控制)
 - [联系作者](#作者)
@@ -23,13 +26,26 @@ https://github.com/user-attachments/assets/117e2d22-9618-4e97-ab03-9fe3c9fac485
 
 <video src="./show.mp4"></video>
 
-### 开发前的配置要求
+### 部署
 
-1. 从千帆大模型平台获得访问语言模型文心一言的Access Token
-2. AI配图功能需要自备任意开源图库API KEY，作者使用的是pixabay
-2. OSS服务
+- 后端：
+  1. ​	配置application.yml中MySQL地址(spring.datasource)
+  2. ​    配置application.yml中文心一言参数，先在文心一言创建自己的应用，再设置应用的appkey和secretkey。并且要开通boturl中对应的模型，可以自己  在模型广场选择模型并修改boturl。(ernie.*)
+  3. ​    配置application.yml中对象储存参数，需要在阿里云oss创建桶并填入相关参数。(aliyun.oss.*)
+  4. ​    （可选）配置unplash等开源图库apikey，根据具体图库，配置src/main/java/com/solocongee/presentationgen_back_end/utils/MergePPT.java中Futrue数组中请求图片方式。
+  5. ​    配置文件路径，如果在windows本地运行请把配置application.yml中（# 设置全局路径Windows段）取消注释，并注释掉（#设置全局路径Linux段）。
+  6. ​    下载完整资源文件，解压并覆盖掉data文件夹下的templates文件夹。
+     ​     链接：https://pan.baidu.com/s/1Fp_uIF6eJKvQcgdq6_3s2A?pwd=jo63 
+     ​     提取码：jo63
+  7. ​    准备数据库数据，使用提供的PGen.sql还原数据库。
+  7. ​    Meaven依赖加载。
+- 前端
+  1.    npm install -f
+  2.    修改src/main.js下axios.defaults.baseURL为后端地址。
+  3.    修改src/StreamDisplay.vue内url为后端地址，本地运行请修改process.env.NODE_ENV === 'development'分支语句内的url。
 
 ### 文件目录说明
+
 ```
 filetree 
 ├── LICENSE.txt
@@ -62,12 +78,6 @@ filetree
 
 
 
-### 部署
-
-1. 后端：配置application.yml中缺省参数，补充MergePPT.java中图库api等，加载Mevan依赖。
-2. 后端资源：data中的template文件限于仓库大小删减了绝大部分模板文件，功能会有异常，数据库中的文件会找不到。
-3. 前端: npm install --force
-
 ### 技术栈
 
 <div align=center><img src="https://github.com/user-attachments/assets/b55f6545-1fac-42ea-93d7-d612b8d18152"></div>
@@ -83,8 +93,3 @@ filetree
 ### 版权说明
 
 该项目签署了MIT 授权许可，详情请参阅 LICENSE.txt
-
-
-
-
-
